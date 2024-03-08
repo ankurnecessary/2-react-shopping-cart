@@ -66,8 +66,12 @@ function App() {
     });
   }
 
+  const ctxValue = {
+    items: shoppingCart.items,
+    addItemsToCart: handleAddItemToCart,
+  };
   return (
-    <ShoppingCartContext.Provider value={shoppingCart}>
+    <ShoppingCartContext.Provider value={ctxValue}>
       <Header
         cart={shoppingCart}
         onUpdateCartItemQuantity={handleUpdateCartItemQuantity}
