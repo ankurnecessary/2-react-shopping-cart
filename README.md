@@ -11,6 +11,7 @@ A react application on shopping cart. Working with:
 7. createPortal()
 8. createContext()
 9. useContext()
+10. <React.StrictMode>
 
 [Eslint configuration - Best linting configuration is to use "format on save" and don't use "formatting option of ES Lint"](https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8231814#questions/20789494)
 
