@@ -14,6 +14,7 @@ A react application on shopping cart. Working with:
 10. <React.StrictMode>
 11. Children prop
 12. Using rest operator while using component tag.
+13. useReducer()
 
 [Eslint configuration - Best linting configuration is to use "format on save" and don't use "formatting option of ES Lint"](https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8231814#questions/20789494)
 
